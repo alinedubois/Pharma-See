@@ -8,7 +8,6 @@ export const BarreDeNavigation = () => {
       <Toolbar>
         <img src="/logo.png" className="logo" alt="logo" />
         <Typography variant="h6" className="titre">PharmaSee</Typography>
-
       </Toolbar>
     </AppBar>
   )
