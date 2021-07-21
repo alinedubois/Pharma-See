@@ -1,10 +1,11 @@
 import './App.css';
+import {BarreDeNavigation} from './components/BarreDeNavigation';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <BarreDeNavigation />
+    </>
   );
 }
 
