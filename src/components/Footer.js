@@ -17,7 +17,7 @@ export const Footer = () => {
                 <div/>
 
                 <div className="mentions-generales">
-                    Ce site est réalisé dans le cadre du checkpoint 4 à la Wild Code School Remote FR 2021. Il s'adresse
+                    Ce site est réalisé par Aline DUBOIS dans le cadre du checkpoint 4 à la Wild Code School Remote FR 2021. Il s'adresse
                     aux particuliers désireux de gérer plus facilement leur pharmacie.
                 </div>
             </div>
