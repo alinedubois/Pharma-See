@@ -8,6 +8,7 @@ export const Pharmacie = ({medicaments, enleverMedicament}) => {
   return <>
     <Container maxWidth="lg">
       <Typography variant="h1">Ma pharmacie</Typography>
+      <Typography variant="h6">Suivez son contenu en temps réel</Typography>
       <Box display="flex" flexWrap="wrap" gridGap={20} mt={2}>
         {medicaments
           .filter(medicament => medicament.quantite > 0)
