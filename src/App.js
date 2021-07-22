@@ -3,6 +3,7 @@ import {BarreDeNavigation} from './components/BarreDeNavigation';
 import {Pharmacie} from './components/Pharmacie';
 import {useEffect, useState} from 'react';
 import BackTop from "./components/BackTop";
+import Footer from "./components/Footer";
 
 
 
@@ -37,7 +38,10 @@ function App() {
 
             <BackTop />
 
+            <Footer/>
+
         </>
+
     );
 }
 
