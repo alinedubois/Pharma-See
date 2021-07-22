@@ -3,6 +3,7 @@ import {BarreDeNavigation} from './components/BarreDeNavigation';
 import {Pharmacie} from './components/Pharmacie';
 import {useEffect, useState} from 'react';
 
+
 function App() {
     const [medicaments, setMedicaments] = useState([]);
 
@@ -23,7 +24,9 @@ function App() {
 
     return (
         <>
-            <BarreDeNavigation />
+            <BarreDeNavigation
+                rechargerLaPharmacie={chargerLesMedicamentsDeLaPharmacie}
+            />
 
             <Pharmacie
                 medicaments={medicaments}

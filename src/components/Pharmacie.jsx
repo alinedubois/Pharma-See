@@ -1,6 +1,7 @@
 import {Box, Container, Typography} from '@material-ui/core';
 import {useEffect, useState} from 'react';
 import {Medicament} from './Medicament';
+import './Pharmacie.css';
 
 export const Pharmacie = ({medicaments, enleverMedicament}) => {
 
